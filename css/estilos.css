@@ -227,3 +227,6 @@ text-decoration: none;
     margin-top: 20px;
    /*Como hago para que el footer me quede siempre abajo con poco contenido??*/
 }
+.done {
+    font: 100;
+}
