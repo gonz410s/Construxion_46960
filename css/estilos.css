@@ -1,0 +1,229 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,600;0,700;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(19, 19, 19);
+    margin-bottom: 30px;
+}
+
+.header {
+    background-color: rgb(255, 178, 1);
+    width: 100%;
+    height: auto;
+    padding: 40px;
+}
+
+.header .navegador li a {
+    
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 2px;
+
+}
+.header .logo a img {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    align-items: center;
+}
+
+
+.header .navegador {
+    font-weight: 600;
+    font-size: 1.5rem;
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.header .navegador li {
+    list-style: none;
+    display: inline-block;
+    
+}
+
+.header .navegador a {
+    text-decoration: none;
+    color: black;
+}
+
+.main .contenedorVideo {
+    height: 500px;
+    width: auto;
+    background-image: url(../assets/img/FondoHazard2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.main .contenedorVideo iframe {
+    width: 100;
+    height: 100;
+    display: inline-block;
+    padding-top: 15px;
+
+}
+
+
+.fuenteTitulo h1
+{
+    display: inline-block;
+    padding-top: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 3px rgb(251, 192, 1);
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.main
+{
+font-size:1.2rem;
+font-family: 'Rubik', sans-serif; 
+color: white;
+}
+
+.body
+{
+font-size:1rem;
+font-family: 'Rubik', sans-serif; 
+color: white;
+}
+
+a
+{
+text-decoration: none;
+}
+
+.intro  {
+    border: 6px solid gold;
+    border-radius: 30px;
+    padding: 15px;
+    display: inline-block;
+    text-align: center;
+}
+
+.main .intro h3 {
+    padding: 10px;
+}
+
+.tituloTarjetas {
+    text-align: center;
+    font-size: 1.5rem ;
+    padding: 30px;
+    font-weight: 700;
+}
+
+
+
+.tarjeta1 {
+    display: inline-block;
+    border: 4px solid gold;
+    border-radius: 20px ;
+    height: 600px;
+    margin: 0 auto;
+    width: 33%;
+    text-align: center;
+    background-image: url(../assets/img/Planos1.jpg);
+    background-size: cover;
+    background-position: center;
+    color: black;
+}
+
+
+.tarjeta2 {
+    display: inline-block;
+    border: 4px solid gold;
+    border-radius: 20px ;
+    height: 600px;
+    margin: 0 auto;
+    width: 33%;
+    background-color: aliceblue;
+    text-align: center;
+    background-image: url(../assets/img/SomosFamilia.jpg);
+    background-size: cover;
+    background-position: center;
+    color: black;
+  
+}
+
+
+.tarjeta3 {
+    display: inline-block;
+    border: 4px solid gold;
+    border-radius: 20px ;
+    height: 600px;
+    margin: 0 auto;
+    width: 33%;
+    background-color: aliceblue;
+    text-align: center;
+    background-image: url(../assets/img/GaleriaCocina.jpg);
+    background-size: cover;
+    background-position: center;
+    color: black;
+}
+
+.tarjetasFamilia p{ 
+    text-align: center;
+    color: white;
+    padding-top: 600px;
+
+}
+
+.tarjetaJuan {
+    display: inline-block;
+    border: 4px solid gold;
+    border-radius: 20px ;
+    height: 600px;
+    margin: 0 auto;
+    width: 33%;
+    text-align: center;
+    background-image: url(../assets/img/Juan.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.tarjetaMaria {
+    display: inline-block;
+    border: 4px solid gold;
+    border-radius: 20px ;
+    height: 600px;
+    margin: 0 auto;
+    width: 33%;
+    text-align: center;
+    background-image: url(../assets/img/Maria.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.tarjetaRoberto {
+    display: inline-block;
+    border: 4px solid gold;
+    border-radius: 20px ;
+    height: 600px;
+    margin: 0 auto;
+    width: 33%;
+    text-align: center;
+    background-image: url(../assets/img/roberto.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.footer 
+{
+
+    font-size:1rem;
+    font-family: 'Rubik', sans-serif; 
+    color: white;    
+    display:inline-block;
+    padding: 30px;
+    margin-top: 20px;
+   /*Como hago para que el footer me quede siempre abajo con poco contenido??*/
+}
