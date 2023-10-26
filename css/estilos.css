@@ -15,41 +15,38 @@ body {
     background-color: rgb(255, 178, 1);
     width: 100%;
     height: auto;
-    padding: 40px;
 }
 
-.header .navegador li a {
+
+.header li a {
     
     border: 2px solid black;
     border-radius: 5px;
-    padding: 2px;
-
+    padding: 2px 2px;
+    margin-top: 2px;
 }
-.header .logo a img {
+
+.logo a img {
     width: 60px;
     height: 60px;
-    display: inline-block;
-    align-items: center;
 }
 
+.colorNaranja {
+    background-color:rgb(255, 178, 1); }
 
-.header .navegador {
+.header {
     font-weight: 600;
     font-size: 1.5rem;
-    display: inline-block;
     width: 100%;
     margin: 0 auto;
-    text-align: center;
     
 }
 
-.header .navegador li {
+.header li {
     list-style: none;
-    display: inline-block;
-    
 }
 
-.header .navegador a {
+.header a {
     text-decoration: none;
     color: black;
 }
