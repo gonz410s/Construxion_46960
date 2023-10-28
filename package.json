@@ -1,0 +1,11 @@
+{
+  "name": "carlossilveira_master",
+  "version": "1.0.0",
+  "description": "a1# CarlosSilveira_preEntrega2\r  CODER46960",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
