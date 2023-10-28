@@ -9,6 +9,7 @@
 body {
     background-color: rgb(19, 19, 19);
     margin-bottom: 30px;
+    font-family: 'Rubik', sans-serif;
 }
 
 .header {
@@ -123,7 +124,6 @@ text-decoration: none;
 .tarjetasFamilia p{ 
     text-align: center;
     color: black;
-    padding-top: 200px;
 }
 
 .tarjetaJuan {
@@ -166,15 +166,15 @@ text-decoration: none;
 }
 .footer 
 {
-
     font-size:1rem;
     font-family: 'Rubik', sans-serif; 
-    color: white;    
-    display:inline-block;
-    padding: 30px;
-    margin-top: 20px;
-    /*Como hago para que el footer me quede siempre abajo con poco contenido??*/
+    color: white;
+    margin-top: 150px
 }
 .done {
     font: 100;
+}
+
+.footer {
+    height: 30vh;
 }
