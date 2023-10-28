@@ -144,3 +144,7 @@ text-decoration: none;
 .footer {
     height: 30vh;
 }
+
+.galeria li {list-style: none; }
+
+.galeria li img {height: 310px; width: 460px;}
