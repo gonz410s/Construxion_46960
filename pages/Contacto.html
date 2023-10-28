@@ -4,69 +4,113 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONTACTO</title>
-    <link rel="stylesheet" href="../css/estilos.css">
     <link rel="shortcut icon" href="../icon.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;1,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3c94bcb27a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body class="body">
-    <header class="header">
-        <div class="logo">
-            <a href="../index.html"><img src="../assets/img/Logo.png" alt=""></a>
-        </div>
-        <nav class="navegador">
-            <ul>
-                <li>
-                    <a href="../index.html">ConstruXion</a>
-                    <a href="../pages/Galeria.html">Galeria</a>
-                    <a href="../pages/Proyectos.html">Proyectos</a>
-                    <a href="../pages/Conocenos.html">Conocenos</a>
-                    <a href="../pages/Contacto.html">Contacto</a>
-                </li>
-            </ul>
+    <header class="header logo">
+        <nav class="navbar navbar-expand-lg navbar-light colorNaranja navegador">
+            <div class="container colorNaranja w-100 justify-content-end">
+                <a href="../index.html"><img src="../assets/img/Logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">ConstruXion</a>
+                        </li>
+                        <li class="nav-item"> 
+                            <a class="nav-link" href="../pages/Galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/Proyectos.html">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/Conocenos.html">Conocenos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="../pages/Contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
-        <section>
-            <h2>Comunicate con nosotros</h2>
+        <section class="text-center">
+            <h2 class="mt-2">Comunicate con nosotros</h2>
             <h4>Te invitamos a contarnos que tenes pensado hacer utilizando nuestro formulario de contacto</h4>
-                <label for="">¿Como te llamas?</label>
-                <input type="text" name="nombre" id="nombre" placeholder="Juan Gomez" required>
-                
-                <label for="">Un telefono de contacto</label>
-                <input type="text" name="telefono" id="telefono" placeholder="09xxxxxxx" required>
-                
-                <label for="">Dejanos tu em@il</label>
-                <input type="text" name="mail" id="mail" placeholder="juan@mail" required>
-                
-                <label for="">Contanos brevemente tu idea</label>
-                <textarea name="" id="consulta" cols="30" rows="20" placeholder="Me gustaria..." required></textarea>
-                <input type="submit" value="Enviar">
-                
-            </div>
+            <hr>
+                <label class="textoProyecto" for="Nombre">¿Como te llamas?</label>
+                <div class="container">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">Mi nombre es</span>
+                        <input type="text" class="form-control" placeholder="Juli@ Rodriguez" aria-label="NombreCliente" aria-describedby="Nombre y Apellido">
+                    </div>
+                    
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Soy Juli@ Rodriguez, vivo en Montevideo y vivo con mi familia" aria-label="Conociendonos" aria-describedby="Un poco de contexto personal">
+                        <span class="input-group-text" id="basic-addon2">Contanos un poco de vos</span>
+                    </div>
+                    <h2 class="mt-2">Por aca algunos datos de contacto y una breve idea de tu proyecto</h2>
+                    <label class="textoProyecto" for="Telefono" class="form-label">Telefono de contacto</label>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon3">Telefono de contacto celular/fijo</span>
+                        <input type="text" class="form-control"  placeholder="09x123456/2222 4455" id="telefonoContacto" aria-describedby="basic-addon3">
+                    </div>
+                    <label class="textoProyecto" for="Presupuesto">Podrias decirnos tu presupuesto aproximado?</label>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">US$</span>
+                        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                        <span class="input-group-text">.00</span>
+                    </div>
+                    <label class="textoProyecto" for="Email">Un correo electronico para poder charlar mas tarde</label>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="JuliRodriguez" aria-label="usuarioMail">
+                        <span class="input-group-text">@</span>
+                        <input type="text" class="form-control" placeholder="gmail.com" aria-label="Correo">
+                    </div>
+                    
+                    <div class="input-group">
+                        <span class="input-group-text">Contanos que tenes pensado</span>
+                        <textarea class="form-control" placeholder="Me gustaria hacer una reforma en mi cocina, necesito cambiar la mesada, poner una isla y renovar el piso" aria-label="With textarea"></textarea>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-primary mt-2 " type="submit">Enviar</button>
+                      </div>
+                </div>
         </section>
         
     </main>
+    <hr>
+    <footer class="text-center mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="https://www.instagram.com/"" target=_blank"><i class="fa-brands fa-square-instagram fa-4x"alt="instagram"></i></a><br>
+                    <a href="https://uy.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin fa-4x"alt="Linkedin"></i></a><br>
+                    <a href="https://web.whatsapp.com/"" target=_blank"><i class="fa-brands fa-square-whatsapp fa-4x"alt="Whatsapp"></i></a>
+                </div>
+                <div class="col-md-4 mt-3 mb-3">
+                    <p>Horario: Lunes a Viernes de 9 a 18hs</p>
+                    <p>Telefono: 098854458</p>
+                    <p>Direccion: Rambla 1234. Mercedes, Uruguay.</p>
+                </div>
+                <div class="col-md-4">
+                    <iframe
+                            class="border border-4 border-white rounded-pill"
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13347.42457329743!2d-58.02646803926007!3d-33.244071983974465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2suy!4v1696461434436!5m2!1ses!2suy"
+                            width="320" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div id="map"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
-<footer class="footer">
-    <div>
-        <a href="https://www.instagram.com/"" target=_blank"><img src="../assets/img/instagram.png" alt=""></a>
-        <a href="https://uy.linkedin.com/" target="_blank"><img src="../assets/img/linkedin.png" alt=""></a>
-        <a class="anclaFooter" target="_blank" href=""></a>
-    </div>
-    <div>
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13347.42457329743!2d-58.02646803926007!3d-33.244071983974465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2suy!4v1696461434436!5m2!1ses!2suy"
-            width="320" height="240" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-    <div>
-        <p>Estamos abiertos de LaV 9 a 18 hs</p>
-        <p>Nuestro telefono es 1234567890</p>
-        <p>
-        <address>Calle Loca 1234</address>
-        </p>
-    </div>
-    
-</footer>
-
 </html>
