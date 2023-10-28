@@ -124,51 +124,12 @@ text-decoration: none;
     color: white;
 }
 
-
-
 .tarjetasFamilia p{ 
+    font-family:'Rubik', sans-serif; 
     text-align: center;
     color: black;
 }
 
-.tarjetaJuan {
-    display: inline-block;
-    border: 4px solid gold;
-    border-radius: 20px ;
-    height: 600px;
-    margin: 0 auto;
-    width: 33%;
-    text-align: center;
-    background-image: url(../assets/img/Juan.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.tarjetaMaria {
-    display: inline-block;
-    border: 4px solid gold;
-    border-radius: 20px ;
-    height: 600px;
-    margin: 0 auto;
-    width: 33%;
-    text-align: center;
-    background-image: url(../assets/img/Maria.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.tarjetaRoberto {
-    display: inline-block;
-    border: 4px solid gold;
-    border-radius: 20px ;
-    height: 600px;
-    margin: 0 auto;
-    width: 33%;
-    text-align: center;
-    background-image: url(../assets/img/roberto.jpg);
-    background-size: cover;
-    background-position: center;
-}
 .footer 
 {
     font-size:1rem;
