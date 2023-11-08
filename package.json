@@ -7,5 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gonz410s/Construxion_46960.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gonz410s/Construxion_46960/issues"
+  },
+  "homepage": "https://github.com/gonz410s/Construxion_46960#readme"
 }
