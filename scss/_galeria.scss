@@ -1,7 +1,4 @@
 
-.galeria {
-
-}
 .galeria li {list-style: none; 
             img {height: 310px; width: 460px;
                 position: relative;
@@ -9,19 +6,4 @@
     }
 }
 
-.animacion:hover {
-    animation: mover 1s ease-in-out infinite;
-}
-
-@keyframes mover {
-    0% {
-    transform: translateY(0);
-    }
-    50% {
-    transform: translateY(-10px);
-    }
-    100% {
-    transform: translateY(0);
-    }
-}
 
