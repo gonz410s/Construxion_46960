@@ -1,46 +1,28 @@
-@import url(../scss/_contacto.scss);
-@import url(../scss/_footer.scss);
-@import url(../scss/_header.scss);
-@import url(../scss/_mainIndex.scss);
-@import url(../scss/_reset.scss);
-@import url(../scss/_galeria.scss);
-@import url(../scss/_variables.scss);
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,600;0,700;1,700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,600;0,700;1,700&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body {
-    background-color: rgb(19, 19, 19);
-    margin-bottom: 30px;
-    font-family: 'Rubik', sans-serif;
-}
+@import "reset.scss";
+@import "variables.scss";
+@import "fuentes.scss";
 
 .header {
-    background-color: rgb(255, 178, 1);
+    background-color: $color-secundario;
     width: 100%;
     height: auto;
+    
 }
-
 
 .logo a img {
     width: 60px;
     height: 60px;
 }
 
+
 .colorNaranja {
-    background-color:rgb(255, 178, 1); }
+    background-color:$color-secundario; }
 
 .header {
-    font-weight: 600;
-    font-size: 1.5rem;
+    font-weight: map-get($fuente-peso, $key:medio);
+    font-size: map-get($fuente-rem, $key:mediano);
     width: 100%;
     margin: 0 auto;
-    
 }
 
 .header li {
@@ -49,7 +31,7 @@ body {
 
 .header a {
     text-decoration: none;
-    color: black;
+    color:$color-primario;
 }
 
 .main .contenedorVideo {
@@ -75,39 +57,36 @@ body {
     display: inline-block;
     padding-top: 50px;
     text-align: center;
-    color: rgb(255, 255, 255);
-    text-shadow: 3px 3px 3px rgb(251, 192, 1);
-    font-family: 'Rubik', sans-serif;
-    font-weight: 700;
-    font-size: 3rem;
+    color:$color-texto;
+    text-shadow: 3px 3px 3px $color-secundario;
+    font-family:$tipography;
+    font-weight:map-get($fuente-peso,$key:bold);
+    font-size: map-get($fuente-rem,$key:grande );
 }
 
 .main
 {
-font-size:1.2rem;
-font-family: 'Rubik', sans-serif; 
-color: white;
+font-size:map-get($fuente-rem,$key:mediano);
+font-family:$tipography; 
+color: $color-texto;
 }
 
 .body
 {
-font-size:1rem;
-font-family: 'Rubik', sans-serif; 
-color: white;
+font-size:map-get($fuente-rem,$key:normal);
+font-family:$tipography; 
+color:$color-texto;
 }
 
-a
-{
-text-decoration: none;
-}
+
 
 .fondoNegro {
-    background-color: black;
-    border-color: whitesmoke;
+    background-color: $color-primario;
+    border-color: $color-texto;
 }
 
 .intro  {
-    border: 6px solid gold;
+    border: 6px solid $color-secundario;
     border-radius: 30px;
     padding: 15px;
     display: inline-block;
@@ -120,34 +99,32 @@ text-decoration: none;
 
 .tituloTarjetas {
     text-align: center;
-    font-size: 1.5rem ;
+    font-size:map-get($fuente-rem,$key:mediano);
     padding: 30px;
-    font-weight: 700;
-    color: white;
+    font-weight:map-get($fuente-peso,$key:bold);
+    color:$color-texto;
 }
 
 .textoProyecto {
-    font-size: 1.5rem;
-    font-weight: 500;
-    color: white;
+    font-size: map-get($fuente-rem,$key:mediano);
+    font-weight:map-get($fuente-peso,$key:medio);
+    color:$color-texto;
 }
 
 .tarjetasFamilia p{ 
-    font-family:'Rubik', sans-serif; 
+    font-family:$tipography; 
     text-align: center;
-    color: black;
+    color: $color-primario;
 }
 
 .footer 
 {
-    font-size:1rem;
-    font-family: 'Rubik', sans-serif; 
-    color: white;
+    font-size:map-get($fuente-rem,$key:normal);
+    font-family:$tipography; 
+    color:$color-texto;
     margin-top: 150px
 }
-.done {
-    font: 100;
-}
+
 
 .footer {
     height: 30vh;
