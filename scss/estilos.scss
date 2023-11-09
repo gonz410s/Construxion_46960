@@ -1,135 +1,16 @@
 @import "reset.scss";
 @import "variables.scss";
 @import "fuentes.scss";
-
-.header {
-    background-color: $color-secundario;
-    width: 100%;
-    height: auto;
-    
-}
-
-.logo a img {
-    width: 60px;
-    height: 60px;
-}
-
-
-.colorNaranja {
-    background-color:$color-secundario; }
-
-.header {
-    font-weight: map-get($fuente-peso, $key:medio);
-    font-size: map-get($fuente-rem, $key:mediano);
-    width: 100%;
-    margin: 0 auto;
-}
-
-.header li {
-    list-style: none;
-}
-
-.header a {
-    text-decoration: none;
-    color:$color-primario;
-}
-
-.main .contenedorVideo {
-    height: 500px;
-    width: auto;
-    background-image: url(../assets/img/FondoHazard2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-}
-
-.main .contenedorVideo iframe {
-    width: 100;
-    height: 100;
-    display: inline-block;
-    margin-top: 10px;
-
-}
-
-
-.fuenteTitulo h1
-{
-    display: inline-block;
-    padding-top: 50px;
-    text-align: center;
-    color:$color-texto;
-    text-shadow: 3px 3px 3px $color-secundario;
-    font-family:$tipography;
-    font-weight:map-get($fuente-peso,$key:bold);
-    font-size: map-get($fuente-rem,$key:grande );
-}
-
-.main
-{
-font-size:map-get($fuente-rem,$key:mediano);
-font-family:$tipography; 
-color: $color-texto;
-}
-
-.body
-{
-font-size:map-get($fuente-rem,$key:normal);
-font-family:$tipography; 
-color:$color-texto;
-}
+@import "header.scss";
+@import "footer.scss";
+@import "index.scss";
+@import "proyectos.scss";
+@import "conocenos.scss";
+@import "galeria.scss";
 
 
 
-.fondoNegro {
-    background-color: $color-primario;
-    border-color: $color-texto;
-}
-
-.intro  {
-    border: 6px solid $color-secundario;
-    border-radius: 30px;
-    padding: 15px;
-    display: inline-block;
-    text-align: center;
-}
-
-.main .intro h3 {
-    padding: 10px;
-}
-
-.tituloTarjetas {
-    text-align: center;
-    font-size:map-get($fuente-rem,$key:mediano);
-    padding: 30px;
-    font-weight:map-get($fuente-peso,$key:bold);
-    color:$color-texto;
-}
-
-.textoProyecto {
-    font-size: map-get($fuente-rem,$key:mediano);
-    font-weight:map-get($fuente-peso,$key:medio);
-    color:$color-texto;
-}
-
-.tarjetasFamilia p{ 
-    font-family:$tipography; 
-    text-align: center;
-    color: $color-primario;
-}
-
-.footer 
-{
-    font-size:map-get($fuente-rem,$key:normal);
-    font-family:$tipography; 
-    color:$color-texto;
-    margin-top: 150px
-}
 
 
-.footer {
-    height: 30vh;
-}
 
-.galeria li {list-style: none; }
 
-.galeria li img {height: 310px; width: 460px;}

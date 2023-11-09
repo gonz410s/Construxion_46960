@@ -15,35 +15,33 @@ a {
   text-decoration: none;
 }
 
-.header {
-  background-color: rgb(255, 178, 1);
-  width: 100%;
-  height: auto;
-}
-
 .logo a img {
   width: 60px;
   height: 60px;
 }
 
-.colorNaranja {
-  background-color: rgb(255, 178, 1);
-}
-
 .header {
+  background-color: rgb(255, 178, 1);
   font-weight: 500;
   font-size: 1.5rem;
   width: 100%;
+  height: auto;
   margin: 0 auto;
 }
-
-.header li {
+.header .header li {
   list-style: none;
 }
-
-.header a {
+.header .header li .header a {
   text-decoration: none;
   color: black;
+}
+
+.footer {
+  font-size: 1rem;
+  font-family: "Rubik", sans-serif;
+  color: whitesmoke;
+  margin-top: 150px;
+  height: 30vh;
 }
 
 .main .contenedorVideo {
@@ -54,7 +52,6 @@ a {
   background-size: cover;
   text-align: center;
 }
-
 .main .contenedorVideo iframe {
   width: 100;
   height: 100;
@@ -98,7 +95,7 @@ a {
   text-align: center;
 }
 
-.main .intro h3 {
+.main .intro h2 {
   padding: 10px;
 }
 
@@ -122,21 +119,9 @@ a {
   color: black;
 }
 
-.footer {
-  font-size: 1rem;
-  font-family: "Rubik", sans-serif;
-  color: whitesmoke;
-  margin-top: 150px;
-}
-
-.footer {
-  height: 30vh;
-}
-
 .galeria li {
   list-style: none;
 }
-
 .galeria li img {
   height: 310px;
   width: 460px;

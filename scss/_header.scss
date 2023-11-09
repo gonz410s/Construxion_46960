@@ -1,0 +1,24 @@
+
+.logo a img {
+    width: 60px;
+    height: 60px;
+}
+
+.header {
+    background-color: $color-secundario;
+    font-weight: map-get($fuente-peso, $key:medio);
+    font-size: map-get($fuente-rem, $key:mediano);
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    .header li {
+        list-style: none;
+        .header a {
+            text-decoration: none;
+            color:$color-primario;
+        }
+    }
+    
+}
+
+

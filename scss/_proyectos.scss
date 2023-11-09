@@ -1,0 +1,5 @@
+.textoProyecto {
+    font-size: map-get($fuente-rem,$key:mediano);
+    font-weight:map-get($fuente-peso,$key:medio);
+    color:$color-texto;
+}

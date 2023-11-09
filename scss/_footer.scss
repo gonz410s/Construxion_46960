@@ -1,0 +1,9 @@
+.footer 
+{
+    font-size:map-get($fuente-rem,$key:normal);
+    font-family:$tipography; 
+    color:$color-texto;
+    margin-top: 150px;
+    height: 30vh;
+}
+
