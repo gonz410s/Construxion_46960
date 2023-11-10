@@ -11,8 +11,9 @@
     }
 }
 @media screen and (max-width: 768px) {
-    iframe  {
-        width: 320px !important;
+.main .contenedorVideo iframe  {
+        margin-top: 110px !important;
+        width: 380px !important;
         height: 240px !important;
     }
 }   

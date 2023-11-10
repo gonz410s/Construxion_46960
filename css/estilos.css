@@ -73,8 +73,9 @@ a {
 }
 
 @media screen and (max-width: 768px) {
-  iframe {
-    width: 320px !important;
+  .main .contenedorVideo iframe {
+    margin-top: 110px !important;
+    width: 380px !important;
     height: 240px !important;
   }
 }
@@ -146,16 +147,18 @@ a {
   width: 460px;
   position: relative;
   overflow: hidden;
-  transition: transform 1s ease;
 }
 
-.galeria li img:hover {
-  transform: scale(200%);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1;
+@media screen and (min-width: 600px) {
+  .efecto li img {
+    filter: grayscale(100%);
+  }
+  .efecto li img:hover {
+    filter: none !important;
+    transition: 1s ease;
+    z-index: 1;
+    scale: 1.6;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */

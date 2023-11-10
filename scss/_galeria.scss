@@ -1,18 +1,22 @@
 
-.galeria li {list-style: none; 
-            img {
-                height: 310px; width: 460px;
-                position: relative;
-                overflow: hidden;
-                transition: transform 1s ease;
-    }
+.galeria li {
+                list-style: none; 
+                    img {
+                        height: 310px; width: 460px;
+                        position: relative;
+                        overflow: hidden;
+}
 }
 
-.galeria li img:hover {
-    transform: scale(200%);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+@media screen and (min-width: 600px) {
+    .efecto li img {  
+        filter: grayscale(100%) ;
+    }
+    .efecto li img:hover{
+    filter: none !important;
+    transition: 1s ease;
     z-index: 1;
+    scale: 1.6;
+    } 
 }
+
