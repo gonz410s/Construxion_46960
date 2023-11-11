@@ -20,6 +20,14 @@ a {
   height: 60px;
 }
 
+.imagenHeader {
+  background-position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: rgb(253, 178, 1);
+  background: linear-gradient(90deg, rgba(253, 178, 1, 0.6831524846) 20%, rgba(253, 178, 1, 0.9156454818) 57%, rgb(253, 178, 1) 100%), url(../assets/img/Ladrillos.jpg);
+}
+
 .header {
   background-color: rgb(255, 178, 1);
   font-weight: 500;
@@ -57,6 +65,27 @@ a {
   color: whitesmoke;
   margin-top: 150px;
   height: 30vh;
+}
+
+@media screen and (max-width: 600px) {
+  .iconosFooter {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+.instagram i:hover {
+  background: linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7);
+  border-radius: 5px;
+}
+
+.whatsapp i:hover {
+  background: green;
+  border-radius: 5px;
+}
+
+.linkedin i:hover {
+  background: blue;
+  border-radius: 5px;
 }
 
 .main .contenedorVideo {
