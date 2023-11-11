@@ -187,6 +187,16 @@ h3, h2 {
   background: linear-gradient(56deg, rgba(8, 8, 8, 0.6999592073) 21%, rgba(8, 8, 8, 0.7279704118) 53%, rgba(8, 8, 8, 0.7587827367) 84%), url(../assets/img/FotoFamilia.jpg);
 }
 
+.parrafoConocenos {
+  margin-bottom: 30px;
+  font-weight: 600;
+  padding: 20px;
+  text-align: center;
+  font-style: italic;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
 .galeria li {
   list-style: none;
 }
