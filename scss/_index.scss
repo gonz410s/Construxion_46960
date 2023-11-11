@@ -58,12 +58,12 @@ color:$color-texto;
     border-radius: 30px;
     padding: 15px;
     display: inline-block;
-    text-align: center;
+    .intro p{
+        text-align: left !important;
+        padding: 20px;
+    }
 }
 
-.main .intro h2 {
-    padding: 10px;
-}
 
 .tituloTarjetas {
     text-align: center;
@@ -71,4 +71,12 @@ color:$color-texto;
     padding: 30px;
     font-weight:map-get($fuente-peso,$key:bold);
     color:$color-texto;
+}
+
+span{
+    color:gold !important;
+}
+
+h3,h2{
+    @include estilo-titulo
 }

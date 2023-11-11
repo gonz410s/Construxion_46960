@@ -141,11 +141,10 @@ a {
   border-radius: 30px;
   padding: 15px;
   display: inline-block;
-  text-align: center;
 }
-
-.main .intro h2 {
-  padding: 10px;
+.intro .intro p {
+  text-align: left !important;
+  padding: 20px;
 }
 
 .tituloTarjetas {
@@ -154,6 +153,16 @@ a {
   padding: 30px;
   font-weight: 700;
   color: whitesmoke;
+}
+
+span {
+  color: gold !important;
+}
+
+h3, h2 {
+  font-weight: 600;
+  padding: 20px;
+  text-align: center;
 }
 
 .textoProyecto {
@@ -166,6 +175,16 @@ a {
   font-family: "Rubik", sans-serif;
   text-align: center;
   color: black;
+}
+
+.fondoConocenos {
+  height: 130vh;
+  margin-top: 0;
+  background-position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: rgb(8, 8, 8);
+  background: linear-gradient(56deg, rgba(8, 8, 8, 0.6999592073) 21%, rgba(8, 8, 8, 0.7279704118) 53%, rgba(8, 8, 8, 0.7587827367) 84%), url(../assets/img/FotoFamilia.jpg);
 }
 
 .galeria li {
@@ -188,6 +207,9 @@ a {
     z-index: 1;
     scale: 1.6;
   }
+}
+.colorContacto {
+  background-color: black;
 }
 
 /*# sourceMappingURL=estilos.css.map */

@@ -12,6 +12,10 @@ $fuente-peso:(
             semi:600,
             bold:700,
 );
-
+@mixin estilo-titulo {
+    font-weight: map-get($fuente-peso, $key:semi );
+    padding: 20px;
+    text-align: center;
+}
 
 
