@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONTACTO</title>
+    <meta name="description" content="¿Necesitas ayuda con tus proyectos de construcción y reformas de viviendas? ¡Contáctanos hoy en Construxion! Ofrecemos servicios personalizados y asequibles para satisfacer tus necesidades. ¡Nuestro equipo de expertos está aquí para ayudarte!">
+    <meta name="keywords" content="Mercedes, Uruguay, contacto con empresa de construccion, construcción de viviendas, reformas de viviendas, renovación de viviendas, servicios de construcción, servicios de reformas, contratistas de construcción, contratistas de reformas, diseño de interiores, diseño de exteriores, construcción de cocinas, construcción de baños, construcción de patios, construcción de piscinas, construcción de garajes, construcción de terrazas"> 
+    <title>CONTACTO | ConstruXion</title>
     <link rel="shortcut icon" href="../icon.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;1,700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/3c94bcb27a.js" crossorigin="anonymous"></script>
@@ -11,10 +13,10 @@
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body class="body">
-    <header class="header logo">
+    <header class="header logo imagenHeader">
         <nav class="navbar navbar-expand-lg navbar-light colorNaranja navegador">
-            <div class="container colorNaranja w-100 justify-content-end">
-                <a href="../index.html"><img src="../assets/img/Logo.png" alt=""></a>
+            <div class="container colorNaranja w-100 justify-content-between">
+                <a class="animacionLogo" href="../index.html"><img src="../assets/img/Logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -48,40 +50,40 @@
                 <label class="textoProyecto" for="Nombre">¿Como te llamas?</label>
                 <div class="container">
                     <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon1">Mi nombre es</span>
+                        <span class="input-group-text colorContacto" id="Nombre">Mi nombre es</span>
                         <input type="text" class="form-control" placeholder="Juli@ Rodriguez" aria-label="NombreCliente" aria-describedby="Nombre y Apellido">
                     </div>
                     
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Soy Juli@ Rodriguez, vivo en Montevideo y vivo con mi familia" aria-label="Conociendonos" aria-describedby="Un poco de contexto personal">
-                        <span class="input-group-text" id="basic-addon2">Contanos un poco de vos</span>
+                        <input type="text" class="form-control" id="introPersonal" placeholder="Soy Juli@ Rodriguez, vivo en Montevideo y vivo con mi familia" aria-label="Conociendonos" aria-describedby="Un poco de contexto personal">
+                        <span class="input-group-text colorContacto" >Contanos un poco de vos</span>
                     </div>
                     <h2 class="mt-2">Por aca algunos datos de contacto y una breve idea de tu proyecto</h2>
                     <label class="textoProyecto" for="Telefono" class="form-label">Telefono de contacto</label>
                     <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon3">Telefono de contacto celular/fijo</span>
+                        <span class="input-group-text colorContacto">Telefono de contacto celular/fijo</span>
                         <input type="text" class="form-control"  placeholder="09x123456/2222 4455" id="telefonoContacto" aria-describedby="basic-addon3">
                     </div>
                     <label class="textoProyecto" for="Presupuesto">Podrias decirnos tu presupuesto aproximado?</label>
                     <div class="input-group mb-3">
-                        <span class="input-group-text">US$</span>
-                        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
-                        <span class="input-group-text">.00</span>
+                        <span class="input-group-text colorContacto">US$</span>
+                        <input type="text" class="form-control" id="presupuesto" aria-label="Amount (to the nearest dollar)">
+                        <span class="input-group-text colorContacto">.00</span>
                     </div>
                     <label class="textoProyecto" for="Email">Un correo electronico para poder charlar mas tarde</label>
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="JuliRodriguez" aria-label="usuarioMail">
-                        <span class="input-group-text">@</span>
-                        <input type="text" class="form-control" placeholder="gmail.com" aria-label="Correo">
+                        <input type="text" class="form-control" id="email" placeholder="JuliRodriguez" aria-label="usuarioMail">
+                        <span class="input-group-text colorContacto">@</span>
+                        <input type="text" class="form-control" id="proveedormail" placeholder="gmail.com" aria-label="Correo">
                     </div>
                     
                     <div class="input-group">
-                        <span class="input-group-text">Contanos que tenes pensado</span>
-                        <textarea class="form-control" placeholder="Me gustaria hacer una reforma en mi cocina, necesito cambiar la mesada, poner una isla y renovar el piso" aria-label="With textarea"></textarea>
+                        <span class="input-group-text colorContacto">Contanos que tenes pensado</span>
+                        <textarea class="form-control" id="ideaCliente" placeholder="Me gustaria hacer una reforma en mi cocina, necesito cambiar la mesada, poner una isla y renovar el piso" aria-label="With textarea"></textarea>
                     </div>
                     <div class="col-12">
-                        <button class="btn btn-primary mt-2 " type="submit">Enviar</button>
-                      </div>
+                        <button class="btn btn-warning mt-2 colorContacto border-warning" type="submit">Enviar</button>
+                    </div>
                 </div>
         </section>
         
@@ -90,10 +92,10 @@
     <footer class="text-center mt-5">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <a href="https://www.instagram.com/"" target=_blank"><i class="fa-brands fa-square-instagram fa-4x"alt="instagram"></i></a><br>
-                    <a href="https://uy.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin fa-4x"alt="Linkedin"></i></a><br>
-                    <a href="https://web.whatsapp.com/"" target=_blank"><i class="fa-brands fa-square-whatsapp fa-4x"alt="Whatsapp"></i></a>
+                <div class="col-md-4 iconosFooter">
+                    <a class="instagram" href="https://www.instagram.com/"" target=_blank"><i class="fa-brands fa-square-instagram fa-4x" alt="Instagram" style="color: #fdb201;"></i></a><br>
+                    <a class="linkedin" href="https://uy.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin fa-4x"alt="Linkedin" style="color: #fdb201;"></i></a><br>
+                    <a class="whatsapp" href="https://web.whatsapp.com/"" target=_blank"><i class="fa-brands fa-square-whatsapp fa-4x"alt="Whatsapp" style="color: #fdb201;"></i></a>
                 </div>
                 <div class="col-md-4 mt-3 mb-3">
                     <p>Horario: Lunes a Viernes de 9 a 18hs</p>

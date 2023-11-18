@@ -1,0 +1,30 @@
+.footer 
+{
+    font-size:map-get($fuente-rem,$key:normal);
+    font-family:$tipography; 
+    color:$color-texto;
+    margin-top: 150px;
+    height: 30vh;
+}
+
+@media screen and (max-width:600px) {
+    .iconosFooter{
+        display: flex;
+        justify-content: space-evenly;
+}
+    
+}
+.instagram i:hover {
+    background: linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7);
+    border-radius: 5px;
+}
+
+.whatsapp i:hover {
+    background: green;
+    border-radius: 5px;
+}
+
+.linkedin i:hover {
+    background:blue;
+    border-radius: 5px;
+}

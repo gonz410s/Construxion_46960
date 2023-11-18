@@ -1,0 +1,19 @@
+{
+  "name": "carlossilveira_master",
+  "version": "1.0.0",
+  "description": "a1# CarlosSilveira_preEntrega2\r  CODER46960",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gonz410s/Construxion_46960.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gonz410s/Construxion_46960/issues"
+  },
+  "homepage": "https://github.com/gonz410s/Construxion_46960#readme"
+}

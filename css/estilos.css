@@ -1,150 +1,226 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,600;0,700;1,700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,600;0,700;1,700&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
 body {
-    background-color: rgb(19, 19, 19);
-    margin-bottom: 30px;
-    font-family: 'Rubik', sans-serif;
+  background-color: rgb(19, 19, 19);
+  margin-bottom: 30px;
+  font-family: "Rubik", sans-serif;
+  text-decoration: none !important;
 }
 
-.header {
-    background-color: rgb(255, 178, 1);
-    width: 100%;
-    height: auto;
+a {
+  text-decoration: none;
 }
-
 
 .logo a img {
-    width: 60px;
-    height: 60px;
+  width: 60px;
+  height: 60px;
 }
 
-.colorNaranja {
-    background-color:rgb(255, 178, 1); }
+.imagenHeader {
+  background-position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: rgb(253, 178, 1);
+  background: linear-gradient(90deg, rgba(253, 178, 1, 0.6831524846) 20%, rgba(253, 178, 1, 0.9156454818) 57%, rgb(253, 178, 1) 100%), url(../assets/img/Ladrillos.jpg);
+}
 
 .header {
-    font-weight: 600;
-    font-size: 1.5rem;
-    width: 100%;
-    margin: 0 auto;
-    
+  background-color: rgb(255, 178, 1);
+  font-weight: 500;
+  font-size: 1.5rem;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+.header .header li {
+  list-style: none;
+}
+.header .header li .header a {
+  text-decoration: none;
+  color: black;
 }
 
-.header li {
-    list-style: none;
+.animacionLogo:hover {
+  animation: mover 1s ease-in-out infinite;
 }
 
-.header a {
-    text-decoration: none;
-    color: black;
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.footer {
+  font-size: 1rem;
+  font-family: "Rubik", sans-serif;
+  color: whitesmoke;
+  margin-top: 150px;
+  height: 30vh;
+}
+
+@media screen and (max-width: 600px) {
+  .iconosFooter {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+.instagram i:hover {
+  background: linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7);
+  border-radius: 5px;
+}
+
+.whatsapp i:hover {
+  background: green;
+  border-radius: 5px;
+}
+
+.linkedin i:hover {
+  background: blue;
+  border-radius: 5px;
 }
 
 .main .contenedorVideo {
-    height: 500px;
-    width: auto;
-    background-image: url(../assets/img/FondoHazard2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
+  height: 500px;
+  width: auto;
+  background-image: url(../assets/img/FondoHazard2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
 }
-
 .main .contenedorVideo iframe {
-    width: 100;
-    height: 100;
-    display: inline-block;
-    margin-top: 10px;
-
+  display: inline-block;
+  margin-top: 10px;
 }
 
-
-.fuenteTitulo h1
-{
-    display: inline-block;
-    padding-top: 50px;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    text-shadow: 3px 3px 3px rgb(251, 192, 1);
-    font-family: 'Rubik', sans-serif;
-    font-weight: 700;
-    font-size: 3rem;
+@media screen and (max-width: 768px) {
+  .main .contenedorVideo iframe {
+    margin-top: 110px !important;
+    width: 380px !important;
+    height: 240px !important;
+  }
+}
+.fuenteTitulo h1 {
+  display: inline-block;
+  padding-top: 50px;
+  text-align: center;
+  color: whitesmoke;
+  text-shadow: 3px 3px 3px rgb(255, 178, 1);
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
 }
 
-.main
-{
-font-size:1.2rem;
-font-family: 'Rubik', sans-serif; 
-color: white;
+.main {
+  font-size: 1.5rem;
+  font-family: "Rubik", sans-serif;
+  color: whitesmoke;
 }
 
-.body
-{
-font-size:1rem;
-font-family: 'Rubik', sans-serif; 
-color: white;
-}
-
-a
-{
-text-decoration: none;
+.body {
+  font-size: 1rem;
+  font-family: "Rubik", sans-serif;
+  color: whitesmoke;
 }
 
 .fondoNegro {
-    background-color: black;
-    border-color: whitesmoke;
+  background-color: black;
+  border-color: whitesmoke;
 }
 
-.intro  {
-    border: 6px solid gold;
-    border-radius: 30px;
-    padding: 15px;
-    display: inline-block;
-    text-align: center;
+.intro {
+  border: 6px solid rgb(255, 178, 1);
+  border-radius: 30px;
+  padding: 15px;
+  display: inline-block;
 }
-
-.main .intro h3 {
-    padding: 10px;
+.intro .intro p {
+  text-align: left !important;
+  padding: 20px;
 }
 
 .tituloTarjetas {
-    text-align: center;
-    font-size: 1.5rem ;
-    padding: 30px;
-    font-weight: 700;
-    color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 30px;
+  font-weight: 700;
+  color: whitesmoke;
+}
+
+span {
+  color: gold !important;
+}
+
+h3, h2 {
+  font-weight: 600;
+  padding: 20px;
+  text-align: center;
 }
 
 .textoProyecto {
-    font-size: 1.5rem;
-    font-weight: 500;
-    color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: whitesmoke;
 }
 
-.tarjetasFamilia p{ 
-    font-family:'Rubik', sans-serif; 
-    text-align: center;
-    color: black;
+.tarjetasFamilia p {
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  color: black;
 }
 
-.footer 
-{
-    font-size:1rem;
-    font-family: 'Rubik', sans-serif; 
-    color: white;
-    margin-top: 150px
-}
-.done {
-    font: 100;
-}
-
-.footer {
-    height: 30vh;
+.fondoConocenos {
+  height: 130vh;
+  margin-top: 0;
+  background-position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: rgb(8, 8, 8);
+  background: linear-gradient(56deg, rgba(8, 8, 8, 0.6999592073) 21%, rgba(8, 8, 8, 0.7279704118) 53%, rgba(8, 8, 8, 0.7587827367) 84%), url(../assets/img/FotoFamilia.jpg);
 }
 
-.galeria li {list-style: none; }
+.parrafoConocenos {
+  margin-bottom: 30px;
+  font-weight: 600;
+  padding: 20px;
+  text-align: center;
+  font-style: italic;
+  font-size: 3rem;
+  font-weight: 600;
+}
 
-.galeria li img {height: 310px; width: 460px;}
+.galeria li {
+  list-style: none;
+}
+.galeria li img {
+  height: 310px;
+  width: 460px;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 600px) {
+  .efecto li img {
+    filter: grayscale(100%);
+  }
+  .efecto li img:hover {
+    filter: none !important;
+    transition: 1s ease;
+    z-index: 1;
+    scale: 1.6;
+  }
+}
+.colorContacto {
+  background-color: black;
+}
+
+/*# sourceMappingURL=estilos.css.map */
