@@ -160,7 +160,7 @@ span {
   color: gold !important;
 }
 
-h3, h2 {
+h3, h2, h1 {
   font-weight: 600;
   padding: 20px;
   text-align: center;
@@ -179,7 +179,7 @@ h3, h2 {
 }
 
 .fondoConocenos {
-  height: 130vh;
+  height: 150vh;
   margin-top: 0;
   background-position: relative;
   background-repeat: no-repeat;
