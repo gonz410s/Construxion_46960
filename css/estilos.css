@@ -179,7 +179,7 @@ h3, h2, h1 {
 }
 
 .fondoConocenos {
-  height: 160vh;
+  height: 130vh;
   margin-top: 0;
   background-position: relative;
   background-repeat: no-repeat;
@@ -198,14 +198,24 @@ h3, h2, h1 {
   font-weight: 600;
 }
 
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
 .galeria li {
   list-style: none;
 }
 .galeria li img {
   height: 310px;
-  width: 460px;
+  width: 460px !important;
   position: relative;
   overflow: hidden;
+  object-fit: cover;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, z-index 0.3s ease-in-out;
 }
 
 @media screen and (min-width: 600px) {
@@ -216,11 +226,43 @@ h3, h2, h1 {
     filter: none !important;
     transition: 1s ease;
     z-index: 1;
-    scale: 1.6;
+    object-fit: cover;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, z-index 0.3s ease-in-out;
+    transform: scale(1.5);
   }
 }
 .colorContacto {
   background-color: black;
+}
+
+.botonEnviar {
+  color: white;
+}
+
+.fondo404 {
+  height: 100vh;
+  margin-top: 0;
+  background-position: center;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background: rgb(8, 8, 8);
+  background: linear-gradient(56deg, rgba(8, 8, 8, 0.6999592073) 11%, rgba(8, 8, 8, 0.7279704118) 30%, rgba(8, 8, 8, 0.7587827367) 50%), url(../assets/img/EnConstruccion.png);
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.logoGiratorio {
+  margin-top: 70px;
+  width: 350px;
+  height: 350px;
+  animation: rotate 10s linear infinite;
 }
 
 /*# sourceMappingURL=estilos.css.map */

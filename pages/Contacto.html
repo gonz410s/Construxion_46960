@@ -51,18 +51,18 @@
                 <div class="container">
                     <div class="input-group mb-3">
                         <span class="input-group-text colorContacto" id="Nombre">Mi nombre es</span>
-                        <input type="text" class="form-control" placeholder="Juli@ Rodriguez" aria-label="NombreCliente" aria-describedby="Nombre y Apellido">
+                        <input type="text" class="form-control" placeholder="Juli@ Rodriguez" required aria-label="NombreCliente" aria-describedby="Nombre y Apellido">
                     </div>
                     
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" id="introPersonal" placeholder="Soy Juli@ Rodriguez, vivo en Montevideo y vivo con mi familia" aria-label="Conociendonos" aria-describedby="Un poco de contexto personal">
+                        <input type="text" class="form-control" id="introPersonal" placeholder="Soy Juli@ Rodriguez, vivo en Montevideo y vivo con mi familia" required aria-label="Conociendonos" aria-describedby="Un poco de contexto personal">
                         <span class="input-group-text colorContacto" >Contanos un poco de vos</span>
                     </div>
                     <h2 class="mt-2">Por aca algunos datos de contacto y una breve idea de tu proyecto</h2>
                     <label class="textoProyecto" for="Telefono" class="form-label">Telefono de contacto</label>
                     <div class="input-group mb-3">
                         <span class="input-group-text colorContacto">Telefono de contacto celular/fijo</span>
-                        <input type="text" class="form-control"  placeholder="09x123456/2222 4455" id="telefonoContacto" aria-describedby="basic-addon3">
+                        <input type="text" class="form-control"  placeholder="09x123456/2222 4455" required id="telefonoContacto" aria-describedby="basic-addon3">
                     </div>
                     <label class="textoProyecto" for="Presupuesto">Podrias decirnos tu presupuesto aproximado?</label>
                     <div class="input-group mb-3">
@@ -72,17 +72,17 @@
                     </div>
                     <label class="textoProyecto" for="Email">Un correo electronico para poder charlar mas tarde</label>
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" id="email" placeholder="JuliRodriguez" aria-label="usuarioMail">
+                        <input type="text" class="form-control" id="email" placeholder="JuliRodriguez" required aria-label="usuarioMail">
                         <span class="input-group-text colorContacto">@</span>
-                        <input type="text" class="form-control" id="proveedormail" placeholder="gmail.com" aria-label="Correo">
+                        <input type="text" class="form-control" id="proveedormail" placeholder="gmail.com" required aria-label="Correo">
                     </div>
                     
                     <div class="input-group">
                         <span class="input-group-text colorContacto">Contanos que tenes pensado</span>
-                        <textarea class="form-control" id="ideaCliente" placeholder="Me gustaria hacer una reforma en mi cocina, necesito cambiar la mesada, poner una isla y renovar el piso" aria-label="With textarea"></textarea>
+                        <textarea class="form-control" id="ideaCliente" placeholder="Me gustaria hacer una reforma en mi cocina, necesito cambiar la mesada, poner una isla y renovar el piso" required aria-label="With textarea"></textarea>
                     </div>
                     <div class="col-12">
-                        <button class="btn btn-warning mt-2 colorContacto border-warning" type="submit">Enviar</button>
+                        <a class="btn btn-warning mt-2 colorContacto border-warning botonEnviar" href="./Error404.html" target="_blank" type="submit">Enviar</a>
                     </div>
                 </div>
         </section>
