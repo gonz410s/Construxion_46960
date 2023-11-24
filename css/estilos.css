@@ -178,14 +178,19 @@ h3, h2, h1 {
   color: black;
 }
 
+@media screen and (min-width: 600px) {
+  .fondoConocenos {
+    height: 150vh;
+    margin-top: 0;
+    background-position: relative;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    background: rgb(8, 8, 8);
+    background: linear-gradient(56deg, rgba(8, 8, 8, 0.6999592073) 21%, rgba(8, 8, 8, 0.7279704118) 53%, rgba(8, 8, 8, 0.7587827367) 84%), url(../assets/img/FotoFamilia.jpg);
+  }
+}
 .fondoConocenos {
-  height: 130vh;
-  margin-top: 0;
-  background-position: relative;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background: rgb(8, 8, 8);
-  background: linear-gradient(56deg, rgba(8, 8, 8, 0.6999592073) 21%, rgba(8, 8, 8, 0.7279704118) 53%, rgba(8, 8, 8, 0.7587827367) 84%), url(../assets/img/FotoFamilia.jpg);
+  background-color: black;
 }
 
 .parrafoConocenos {
