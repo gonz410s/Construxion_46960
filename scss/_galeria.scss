@@ -5,11 +5,10 @@
     justify-content: space-around;
     align-items: flex-start;
         li {
-                list-style: none; 
+            list-style: none; 
                     img {
-                        height: 310px; width: 460px !important;
+                        height: 310px; width: 460px;
                         position: relative;
-                        overflow:hidden;
                         object-fit: cover;
                         border-radius: 6px;
                         cursor:pointer;
@@ -24,13 +23,9 @@
     }
     .efecto li img:hover{
     filter: none !important;
-    transition: 1s ease;
     z-index: 1;
-    object-fit: cover;
-    overflow: hidden;
     transition: transform 0.3s ease-in-out, z-index 0.3s ease-in-out;
-    transform:scale(1.5) ;
-    
+    transform:scale(1.5);
     } 
 }
 

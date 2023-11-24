@@ -214,9 +214,8 @@ h3, h2, h1 {
 }
 .galeria li img {
   height: 310px;
-  width: 460px !important;
+  width: 460px;
   position: relative;
-  overflow: hidden;
   object-fit: cover;
   border-radius: 6px;
   cursor: pointer;
@@ -229,10 +228,7 @@ h3, h2, h1 {
   }
   .efecto li img:hover {
     filter: none !important;
-    transition: 1s ease;
     z-index: 1;
-    object-fit: cover;
-    overflow: hidden;
     transition: transform 0.3s ease-in-out, z-index 0.3s ease-in-out;
     transform: scale(1.5);
   }
