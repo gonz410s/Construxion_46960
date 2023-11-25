@@ -12,7 +12,6 @@
                         object-fit: cover;
                         border-radius: 6px;
                         cursor:pointer;
-                        transition: transform 0.3s ease-in-out, z-index 0.3s ease-in-out
                     }
 }
 }
@@ -22,10 +21,10 @@
         filter: grayscale(100%) ;
     }
     .efecto li img:hover{
+    
     filter: none !important;
-    z-index: 1;
-    transition: transform 0.3s ease-in-out, z-index 0.3s ease-in-out;
-    transform:scale(1.5);
+    border-radius:15%;
+    box-shadow: 0px 0px 15px 15px goldenrod;
     } 
 }
 
