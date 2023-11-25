@@ -18,17 +18,7 @@
 }
 
 .fondoConocenos{ 
-<<<<<<< HEAD
-    height: 160vh;
-    margin-top: 0;
-    background-position: relative;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background: rgb(8,8,8);
-    background: linear-gradient(56deg, rgba(8,8,8,0.6999592073157388) 21%, rgba(8,8,8,0.7279704117975315) 53%, rgba(8,8,8,0.7587827367275035) 84%),url(../assets/img/FotoFamilia.jpg);
-=======
 background-color: black;
->>>>>>> sass
 }
 .parrafoConocenos{
     margin-bottom: 30px;
@@ -37,3 +27,4 @@ background-color: black;
     font-size: map-get($fuente-rem, $key:grande);
     font-weight: map-get($fuente-peso, $key:semi);
 }
+
